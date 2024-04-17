@@ -1,1 +1,17 @@
 flutter pub add go_router
+
+flutter pub add flutter_riverpod
+flutter pub add riverpod_annotation
+flutter pub add dev:riverpod_generator
+flutter pub add dev:build_runner
+flutter pub add dev:custom_lint
+flutter pub add dev:riverpod_lint
+
+dart run build_runner watch -d
+
+firebase login
+dart pub global activate flutterfire_cli
+
+flutter pub add firebase_core
+flutter pub add firebase_auth
+flutter pub add cloud_firestore
